@@ -1,0 +1,121 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+ul,ol,li{
+    list-style: none;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding-inline: 80px;
+    background-color: black
+}
+
+header{
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    height: 80px;
+    width: 80px;
+    background-size: cover;
+    background-image: url(./logo-branca-xbox.png);
+    background-size: cover;
+}
+
+.menu ul{
+    display: flex;
+    gap: 32px;
+    font-size: 32px;
+    color: white;
+}
+
+main{
+    flex-grow: 1;
+    display: flex;
+}
+
+.conteudo{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.conteudo h1{
+    font-size: 80px;
+    color: white;
+}
+
+.conteudo p {
+    font-size: 30px;
+    width: 90%;
+    color: white;
+}
+
+.conteudo button{
+    height: 96px;
+    width: 300px;
+    background-color: ;
+    color: black;
+    font-size: 32px;
+}
+
+.conteudo .social{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.conteudo .social div{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+
+
+
+.conteudo .social .terceiro{
+    background-image: url('');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.conteudo .social .quarto{
+    background-image: url('');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.destaque{
+    width: 50%;
+    background-image: url('');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+footer{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+
