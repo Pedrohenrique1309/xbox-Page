@@ -96,19 +96,22 @@ main{
 
 
 .conteudo{
-    background-color: aqua;
     width: 1400px;
     height: 600px;
 }
 
-.destaque{
-    background-color: blue;
-    width:10px;
-    height: 600px;
+.destaque img{
+    height: 1000px;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    top: 50%;
+    left: 75%;
+    transform: translate(-50%, -50%);
 }
 
 .vantagens{
-    background-color: #7bff08;
     width:100% ;
     height: 300px;
     display: flex;
@@ -116,7 +119,6 @@ main{
     flex-direction: row;
     padding: 40px;
     gap: 20px;
-
 
 }
 
@@ -172,32 +174,24 @@ main{
     color: white;
     height: 200px;
     width: 200px;
-    background-color: magenta;
 }
 
 .vantagens .segundo{
     color: white;
     height: 200px;
     width: 200px;
-    background-color: navy
-  
-
 }
 
 .vantagens .terceiro{
     color: white;
     height: 200px;
     width: 200px;
-    background-color: cadetblue;
-
 }
 
 .vantagens .quarto{
     color: white;
     height: 200px;
     width: 200px;
-    background-color: darkorange;
-    
 }
 
 .destaque{
@@ -234,10 +228,11 @@ footer{
 }
 
 .paralelogramo{
-    width: 250px;
+    width: 170px;
     height: 50px;
     background-color: #7bff08;
     transform: skewX(-20deg);
     margin-top: 50px;
     margin-left: 10px;
 }
+
