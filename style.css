@@ -22,30 +22,43 @@ body{
 }
 
 header{
-    height: 100vh;
+    height: 300px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
 }
 
-.logo{
+.logo img{
     height: 80px;
-    width: 80px;
-    background-size: cover;
-    background-image: url(./logo-branca-xbox.png);
-    background-size: cover;
+    width: 250px;
+ 
 }
 
 .menu ul{
     display: flex;
     gap: 32px;
-    font-size: 32px;
+    font-size: 28px;
     color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 10px;
+}
+
+
+.botaomenu button{
+    color: black;
+    background-color: #7bff08;
+    height: 80px;
+    width: 250px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 main{
-    flex-grow: 1;
     display: flex;
+    width: 2300px;
+    height: 600px;
 }
 
 .conteudo{
@@ -58,48 +71,133 @@ main{
 .conteudo h1{
     font-size: 80px;
     color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 40px;
 }
 
 .conteudo p {
-    font-size: 30px;
+    font-size: 48px;
     width: 90%;
     color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 70px;
 }
 
 .conteudo button{
-    height: 96px;
+    height: 100px;
     width: 300px;
-    background-color: ;
+    background-color: #7bff08;
     color: black;
     font-size: 32px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 70px;
 }
 
-.conteudo .social{
+
+.conteudo{
+    background-color: aqua;
+    width: 1400px;
+    height: 600px;
+}
+
+.destaque{
+    background-color: blue;
+    width:10px;
+    height: 600px;
+}
+
+.vantagens{
+    background-color: #7bff08;
+    width:100% ;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 40px;
+    gap: 20px;
+
+
+}
+
+
+.social{
     display: flex;
     justify-content: space-between;
     width: 80%;
 }
 
-.conteudo .social div{
+.social div{
     width: 120px;
     height: 120px;
     border-radius: 50%;
 }
 
-
-
-.conteudo .social .terceiro{
-    background-image: url('');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+ .social .primeiro{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    display: flex;
 }
 
-.conteudo .social .quarto{
-    background-image: url('');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+.social .segundo{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    display: flex;
+}
+
+
+.vantagens .terceiro img{
+    height: 60px;
+    width: 70px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+}
+
+.vantagens .quarto img{
+    height: 60px;
+    width: 80px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+}
+
+
+
+.vantagens .primeiro{
+    color: white;
+    height: 200px;
+    width: 200px;
+    background-color: magenta;
+}
+
+.vantagens .segundo{
+    color: white;
+    height: 200px;
+    width: 200px;
+    background-color: navy
+  
+
+}
+
+.vantagens .terceiro{
+    color: white;
+    height: 200px;
+    width: 200px;
+    background-color: cadetblue;
+
+}
+
+.vantagens .quarto{
+    color: white;
+    height: 200px;
+    width: 200px;
+    background-color: darkorange;
+    
 }
 
 .destaque{
@@ -111,6 +209,7 @@ main{
 }
 
 footer{
+    width: 100%;
     height: 100px;
     display: flex;
     justify-content: center;
@@ -118,4 +217,27 @@ footer{
     color: white;
 }
 
+.baixo {
+    font-size: 20px;
+    margin-top: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #5B5656 ;
+    text-align: center;
+}
 
+.cima {
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    margin-top: 110px;
+}
+
+.paralelogramo{
+    width: 250px;
+    height: 50px;
+    background-color: #7bff08;
+    transform: skewX(-20deg);
+    margin-top: 50px;
+    margin-left: 10px;
+}
